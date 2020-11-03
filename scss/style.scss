@@ -7,7 +7,7 @@
     margin:0;
     padding:0;
     box-sizing: border-box;    
-    background-color: rgb(171, 214, 199);
+    
  
 }
 body{
@@ -20,25 +20,27 @@ body{
 .main-content{
     height: 312px ;
     width:373px ;
-    border: 7px solid red;
+    border: 7px solid rgb(155, 3, 3);
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(255, 255, 255);
    
     .top-text{
-        border-bottom:1px solid black ;
+        border-bottom:1px solid rgba(151, 131, 131, 0.46) ;
         text-align: center;
-        padding:25px;
+        padding:23px;
         line-height: 1.2rem;
+        letter-spacing: -1px;
+    
         h4{
             font-family: 'Montserrat', sans-serif;
             font-size: 0.8rem;
             font-weight: 500;
-            
-        }
-        
+            color: rgb(68, 62, 62);            
+        }        
     }
     .middle-text{
        text-align: center;
@@ -46,39 +48,44 @@ body{
         font-family:  'Montserrat', sans-serif;
         font-size: 0.9rem;
         padding: .3rem;
+        color: rgb(68, 62, 62);
        }
        .time{
            font-size: 1.3rem;
            font-weight: bolder;
-           
+           color: rgb(68, 62, 62);
+           font-family:  'Montserrat', sans-serif;
+           font-size: .95rem;
        }
        .brand{
-           color: green;
-           font-size: 0.95rem;
+           color: rgb(28, 182, 28);
+           font-size: 0.75rem;
            padding: .3rem;
+           font-family:  'Montserrat', sans-serif;
+           font-weight: 800;
        }
     }
     .bottom-text{
         text-align: center;
-        background-color: rgb(44, 42, 42);
+        background-color: rgb(51, 49, 49);
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 1rem;
         a{
-            background-color: rgb(201, 169, 63);
+            background-color: rgb(243, 187, 2);
             text-decoration: none;
             padding: .5em;
-            color: rgb(44, 42, 42);
+            color: rgb(68, 62, 62);
             text-transform: uppercase;
-            
+           font-family:  'Montserrat', sans-serif;
             font-size: 0.9rem;
             font-weight: 600;
             border-radius:5px;
         }
         i{
-            background-color:rgb(201, 169, 63) ;
+            background-color:rgb(243, 187, 2) ;
             margin-right: 5px;
         }
     }

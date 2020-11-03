@@ -6,7 +6,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: #abd6c7;
 }
 
 body {
@@ -26,7 +25,7 @@ body {
 .main-content {
   height: 312px;
   width: 373px;
-  border: 7px solid red;
+  border: 7px solid #9b0303;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,19 +40,22 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: white;
 }
 
 .main-content .top-text {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(151, 131, 131, 0.46);
   text-align: center;
-  padding: 25px;
+  padding: 23px;
   line-height: 1.2rem;
+  letter-spacing: -1px;
 }
 
 .main-content .top-text h4 {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
+  color: #443e3e;
 }
 
 .main-content .middle-text {
@@ -64,22 +66,28 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
   padding: .3rem;
+  color: #443e3e;
 }
 
 .main-content .middle-text .time {
   font-size: 1.3rem;
   font-weight: bolder;
+  color: #443e3e;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .95rem;
 }
 
 .main-content .middle-text .brand {
-  color: green;
-  font-size: 0.95rem;
+  color: #1cb61c;
+  font-size: 0.75rem;
   padding: .3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
 }
 
 .main-content .bottom-text {
   text-align: center;
-  background-color: #2c2a2a;
+  background-color: #333131;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,18 +102,19 @@ body {
 }
 
 .main-content .bottom-text a {
-  background-color: #c9a93f;
+  background-color: #f3bb02;
   text-decoration: none;
   padding: .5em;
-  color: #2c2a2a;
+  color: #443e3e;
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.9rem;
   font-weight: 600;
   border-radius: 5px;
 }
 
 .main-content .bottom-text i {
-  background-color: #c9a93f;
+  background-color: #f3bb02;
   margin-right: 5px;
 }
 /*# sourceMappingURL=style.css.map */
