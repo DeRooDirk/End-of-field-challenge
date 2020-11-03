@@ -6,6 +6,8 @@
 $main-dark-color:rgb(33, 31, 31);
 $main-light-color:rgb(237, 229, 229);
 $background-color:rgb(83, 131, 133);
+$fontcolor:rgb(131, 135, 151);
+
 
 /* -- Small Reset --*/
 * {
@@ -17,7 +19,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     width: 100vw;
     background-color:$background-color;
     flex-direction: column;
@@ -45,14 +47,11 @@ section{
     
     }
 
-.container-main {
-    
-    border: 1px solid black;
+.container-main {        
     height: 466px;
     width: 1209px;
     font-family: 'Raleway', sans-serif;
-    background-color: rgb(255, 255, 255);
-
+    background-color:rgb(255, 255, 255);
 
     .content {
         display: flex;
@@ -63,7 +62,7 @@ section{
             width: 30%;
 
             p {
-                color: rgb(64, 64, 70);
+                color: $fontcolor;
                 width: 90%;
                 margin: 20px auto;
                 text-align: left;
@@ -77,8 +76,8 @@ section{
                 margin: 30px auto;
                 
                 a{
-                    color:rgba(64, 64, 70, 0.624) ;
-                    border: 1px solid rgba(64, 64, 70, 0.392);
+                    color:$fontcolor ;
+                    border: 1px solid $fontcolor;
                     padding: 3px 6px;
                     border-radius: 5px;
                     
@@ -101,7 +100,7 @@ section{
                                      
                 }
                 .link{
-                   color: rgba(0, 0, 0, 0.522); 
+                   color: $fontcolor; 
                     margin-top: 22px ;
                    font-size:.7rem;
                    font-weight:bolder;
@@ -115,9 +114,10 @@ section{
         margin: 20px auto;  
     .footer{
         padding-top: 30px;
-      font-size:0.8rem;
+       font-size:0.8rem;
        letter-spacing:0.6px;
        font-size:11px;
+       color: $fontcolor;
     }
 }
 }
@@ -126,6 +126,7 @@ section{
 @media only screen and (max-width: 700px) {
     h1 {
       font-size: 1rem;
+      
     }
     .linkbox{
         flex-direction: column;
@@ -135,3 +136,47 @@ section{
     }
 }
   }
+  @media only screen and (max-width: 1250px) {
+      section{  
+          
+      .container-main{
+          display: flex;
+          flex-direction: column;     
+            
+          width: 270px;
+          height: 100%;
+     .content{
+         display: flex;
+         flex-direction: column;        
+        width: 60%;
+        margin: 0 auto;
+        .left{
+            width: 100%; 
+            text-align: center; 
+            p{
+                text-align: center;
+            }         
+        }
+        .right{  
+            display: flex; 
+            flex-direction: column;           
+            justify-content: center;  
+                     
+            .column{                                      
+                text-align: center;                
+            }
+        }       
+      }
+      .foot{
+          .footer{
+              
+              text-align: center;
+          }
+          
+              
+         
+      }
+    }
+  }
+}
+
