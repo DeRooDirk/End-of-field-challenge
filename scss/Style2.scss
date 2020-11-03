@@ -1,4 +1,12 @@
-/* -- Small Reset --*/ /* -- font-family: 'Raleway', sans-serif;-- */
+ /* -- font-family: 'Raleway', sans-serif;-- */
+
+/*--vars for Linkbox--*/
+
+$main-dark-color:rgb(33, 31, 31);
+$main-light-color:rgb(237, 229, 229);
+$background-color:rgb(83, 131, 133);
+
+/* -- Small Reset --*/
 * {
     margin: 0;
     padding: 0;
@@ -10,10 +18,10 @@ section{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color:cadetblue;
+    background-color:$background-color;
     flex-direction: column;
     h1{
-        color: whitesmoke;
+        color: $main-light-color;
         text-align: center;
         margin:20px
     }
@@ -23,15 +31,15 @@ section{
      
         a{
             text-decoration: none;
-            color: black;
-            border: 1px solid black;
+            color: $main-dark-color;
+            border: 1px solid $main-dark-color;
             border-radius: 5px;
             padding: 1em;
             margin: 1em;
         }
         a:hover{
-            background-color: black;
-            color: whitesmoke;
+            background-color: $main-dark-color;
+            color: $main-dark-color;
         }
     
     }
@@ -113,3 +121,16 @@ section{
 }
 }
 }
+
+@media only screen and (max-width: 700px) {
+    h1 {
+      font-size: 1rem;
+    }
+    .linkbox{
+        flex-direction: column;
+        text-align: center;
+    a {
+      padding: 0.5em;
+    }
+}
+  }

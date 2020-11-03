@@ -30,7 +30,7 @@ body {
 }
 
 h1 {
-  color: whitesmoke;
+  color: #ede5e5;
   text-align: center;
   margin: 20px;
 }
@@ -45,16 +45,16 @@ h1 {
 
 .linkbox a {
   text-decoration: none;
-  color: black;
-  border: 1px solid black;
+  color: #211f1f;
+  border: 1px solid #211f1f;
   border-radius: 5px;
   padding: 1em;
   margin: 1em;
 }
 
 .linkbox a:hover {
-  background-color: black;
-  color: whitesmoke;
+  background-color: #211f1f;
+  color: #ede5e5;
 }
 
 .main-content {
@@ -152,4 +152,20 @@ h1 {
   background-color: #f3bb02;
   margin-right: 5px;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .linkbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .linkbox a {
+    padding: 0.5em;
+  }
+}
+/*# sourceMappingURL=intf2.css.map */

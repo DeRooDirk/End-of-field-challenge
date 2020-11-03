@@ -6,6 +6,9 @@
 $border-color:rgb(156, 21, 50);
 $font-color:rgb(80, 80, 80);
 $buttor-color:rgb(253, 195, 0);
+$main-dark-color:rgb(33, 31, 31);
+$main-light-color:rgb(237, 229, 229);
+$background-color:rgb(83, 131, 133);
 *{
     margin:0;
     padding:0;
@@ -25,7 +28,7 @@ body{
 }
 
 h1{
-    color: whitesmoke;
+    color: $main-light-color;
     text-align: center;
     margin:20px
 }
@@ -35,15 +38,15 @@ h1{
  
     a{
         text-decoration: none;
-        color: black;
-        border: 1px solid black;
+        color: $main-dark-color;
+        border: 1px solid $main-dark-color;
         border-radius: 5px;
         padding: 1em;
         margin: 1em;
     }
     a:hover{
-        background-color: black;
-        color: whitesmoke;
+        background-color: $main-dark-color;
+        color: $main-light-color;
     }
 
 }
@@ -120,3 +123,15 @@ h1{
         }
     }
 }
+@media only screen and (max-width: 400px) {
+    h1 {
+      font-size: 1rem;
+    }
+    .linkbox{
+        flex-direction: column;
+        text-align: center;
+    a {
+      padding: 0.5em;
+    }
+}
+  }

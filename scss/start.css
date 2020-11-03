@@ -8,7 +8,7 @@
 body {
   max-height: 100vh;
   width: 100vw;
-  background-color: cadetblue;
+  background-color: #538385;
 }
 
 h1 {
@@ -47,5 +47,14 @@ h1 {
 .linkbox a:hover {
   background-color: #211f1f;
   color: #ede5e5;
+}
+
+@media only screen and (max-width: 400px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .linkbox a {
+    padding: 0.5em;
+  }
 }
 /*# sourceMappingURL=start.css.map */
