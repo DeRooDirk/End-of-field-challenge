@@ -20,5 +20,11 @@ Free Choice out of three interface
 https://github.com/becodeorg/gnt-verou-1-26/blob/master/1.The-Field/4.HTML-CSS/5.End-of-Field/2.End-of-Field-Challenge/Criteria.md
 
 ## My Results ( 1Simple , 1 hard Interface ) 
+* Validated Html & Css
+* used own imagination
+* Favicon 
+* Google Font (best guess :) )
+* Font Awesome 
+* ColorPicker
 
 https://deroodirk.github.io/End-of-field-challenge/.

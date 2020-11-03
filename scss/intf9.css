@@ -52,7 +52,7 @@ section .linkbox a {
 
 section .linkbox a:hover {
   background-color: #211f1f;
-  color: #211f1f;
+  color: #ede5e5;
 }
 
 section .container-main {
@@ -151,4 +151,4 @@ section .container-main .foot .footer {
     padding: 0.5em;
   }
 }
-/*# sourceMappingURL=Style2.css.map */
+/*# sourceMappingURL=intf9.css.map */
