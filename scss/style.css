@@ -98,13 +98,13 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem;
+  padding: 0.9rem;
 }
 
 .main-content .bottom-text a {
   background-color: #f3bb02;
   text-decoration: none;
-  padding: .5em;
+  padding: .6em;
   color: #443e3e;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
