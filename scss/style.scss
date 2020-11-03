@@ -2,7 +2,10 @@
 /* font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;   -- */
 
-
+/* -vars- */
+$border-color:rgb(156, 21, 50);
+$font-color:rgb(80, 80, 80);
+$buttor-color:rgb(253, 195, 0);
 *{
     margin:0;
     padding:0;
@@ -16,11 +19,38 @@ body{
     width: 100vw;
     height: 100vh;
     align-items: center;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    margin:20px
+}
+.linkbox{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    a{
+        text-decoration: none;
+        color: black;
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em;
+    }
+    a:hover{
+        background-color: black;
+        color: whitesmoke;
+    }
+
 }
 .main-content{
     height: 312px ;
     width:373px ;
-    border: 7px solid rgb(155, 3, 3);
+    border: 7px solid $border-color;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -29,7 +59,7 @@ body{
     background-color: rgb(255, 255, 255);
    
     .top-text{
-        border-bottom:1px solid rgba(151, 131, 131, 0.46) ;
+        border-bottom:1px solid rgba(211, 211, 211, 0.693);
         text-align: center;
         padding:23px;
         line-height: 1.2rem;
@@ -39,7 +69,7 @@ body{
             font-family: 'Montserrat', sans-serif;
             font-size: 0.8rem;
             font-weight: 500;
-            color: rgb(68, 62, 62);            
+            color: $font-color;            
         }        
     }
     .middle-text{
@@ -58,7 +88,7 @@ body{
            font-size: .95rem;
        }
        .brand{
-           color: rgb(28, 182, 28);
+           color: rgb(111, 173, 60);
            font-size: 0.75rem;
            padding: .3rem;
            font-family:  'Montserrat', sans-serif;
@@ -67,14 +97,14 @@ body{
     }
     .bottom-text{
         text-align: center;
-        background-color: rgb(51, 49, 49);
+        background-color: $font-color;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 0.9rem;
         a{
-            background-color: rgb(243, 187, 2);
+            background-color:$buttor-color;
             text-decoration: none;
             padding: .6em ;
             color: rgb(68, 62, 62);

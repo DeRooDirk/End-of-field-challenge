@@ -10,8 +10,31 @@ section{
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: lightgoldenrodyellow;
-
+    background-color:cadetblue;
+    flex-direction: column;
+    h1{
+        color: whitesmoke;
+        text-align: center;
+        margin:20px
+    }
+    .linkbox{
+        display: flex;
+        flex-wrap: wrap;
+     
+        a{
+            text-decoration: none;
+            color: black;
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 1em;
+            margin: 1em;
+        }
+        a:hover{
+            background-color: black;
+            color: whitesmoke;
+        }
+    
+    }
 
 .container-main {
     
@@ -19,6 +42,7 @@ section{
     height: 466px;
     width: 1209px;
     font-family: 'Raleway', sans-serif;
+    background-color: rgb(255, 255, 255);
 
 
     .content {

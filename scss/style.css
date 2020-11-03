@@ -1,6 +1,7 @@
 /* -- Small Reset (margin,padding to 0 ) -- */
 /* font-family: 'Montserrat', sans-serif;
     font-family: 'Roboto', sans-serif;   -- */
+/* -vars- */
 * {
   margin: 0;
   padding: 0;
@@ -20,12 +21,46 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: cadetblue;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  color: whitesmoke;
+  text-align: center;
+  margin: 20px;
+}
+
+.linkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.linkbox a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.linkbox a:hover {
+  background-color: black;
+  color: whitesmoke;
 }
 
 .main-content {
   height: 312px;
   width: 373px;
-  border: 7px solid #9b0303;
+  border: 7px solid #9c1532;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,7 +79,7 @@ body {
 }
 
 .main-content .top-text {
-  border-bottom: 1px solid rgba(151, 131, 131, 0.46);
+  border-bottom: 1px solid rgba(211, 211, 211, 0.693);
   text-align: center;
   padding: 23px;
   line-height: 1.2rem;
@@ -55,7 +90,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
-  color: #443e3e;
+  color: #505050;
 }
 
 .main-content .middle-text {
@@ -78,7 +113,7 @@ body {
 }
 
 .main-content .middle-text .brand {
-  color: #1cb61c;
+  color: #6fad3c;
   font-size: 0.75rem;
   padding: .3rem;
   font-family: 'Montserrat', sans-serif;
@@ -87,7 +122,7 @@ body {
 
 .main-content .bottom-text {
   text-align: center;
-  background-color: #333131;
+  background-color: #505050;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -102,7 +137,7 @@ body {
 }
 
 .main-content .bottom-text a {
-  background-color: #f3bb02;
+  background-color: #fdc300;
   text-decoration: none;
   padding: .6em;
   color: #443e3e;
