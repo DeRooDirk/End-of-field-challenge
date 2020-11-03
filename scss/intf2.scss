@@ -123,13 +123,9 @@ h1{
         }
     }
 }
-@media only screen and (max-width: 655px) {
-    s
-        
-
-    
+@media only screen and (max-width: 655px) {   
     h1 {
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
     .linkbox{
         flex-direction: column;
@@ -139,4 +135,10 @@ h1{
       margin: 5px;
     }
 }
+.main-content{
+    height: 400px;
+    width: 200px;
+
+}
   }
+ 

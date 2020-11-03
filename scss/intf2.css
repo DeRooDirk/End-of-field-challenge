@@ -154,9 +154,8 @@ h1 {
 }
 
 @media only screen and (max-width: 655px) {
-  s
-h1 {
-    font-size: 1rem;
+  h1 {
+    font-size: 1.5rem;
   }
   .linkbox {
     -webkit-box-orient: vertical;
@@ -168,6 +167,10 @@ h1 {
   .linkbox a {
     padding: 0.5em;
     margin: 5px;
+  }
+  .main-content {
+    height: 400px;
+    width: 200px;
   }
 }
 /*# sourceMappingURL=intf2.css.map */
