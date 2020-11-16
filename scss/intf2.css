@@ -48,6 +48,9 @@ h1 {
   color: #211f1f;
   border: 1px solid #211f1f;
   border-radius: 5px;
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
 }
 
 .linkbox a:hover {

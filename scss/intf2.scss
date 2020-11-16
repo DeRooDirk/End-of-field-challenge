@@ -44,6 +44,9 @@ h1 {
         color: $main-dark-color;
         border: 1px solid $main-dark-color;
         border-radius: 5px;
+        border-radius: 5px;
+        padding: 1em;
+        margin: 1em;
     }
     a:hover {
         background-color: $main-dark-color;
