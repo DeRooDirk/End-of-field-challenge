@@ -50,7 +50,6 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            background-color: rgb(167, 150, 128);
         }
         .boxright {
             display: flex;
@@ -58,63 +57,62 @@
             flex-direction: column;
             width: 60%;
             height: 100%;
-            .tekstrechts {
-                .titel {
-                    width: 90%;
-                    margin: 0 auto;
-                    font-size: 0.9rem;
-                    margin-top: 1.3rem;
+            background-color: rgb(255, 255, 255);
+            .titel {
+                width: 90%;
+                margin: 0 auto;
+                font-size: 0.9rem;
+                margin-top: 1.3rem;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: 600;
+                line-height: 1.1rem;
+            }
+            .tekst {
+                width: 90%;
+                margin: 0 auto;
+                font-size: 0.75rem;
+                margin-top: 10px;
+                letter-spacing: 0.3px;
+                font-weight: 200;
+                color: rgba(0, 0, 0, 0.57);
+            }
+        }
+        .infobox {
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-around;
+            img {
+                border-radius: 50%;
+                height: 50px;
+                width: auto;
+            }
+            .naam {
+                margin-right: 20px;
+                align-self: start;
+                margin-bottom: 5px;
+                .tekstp {
                     font-family: 'Montserrat', sans-serif;
-                    font-weight: 600;
-                    line-height: 1.1rem;
+                    font-weight: 400;
+                    font-size: 0.6rem;
+                    margin-top: 2px;
+                    padding-top: 10px;
                 }
-                .tekst {
-                    width: 90%;
-                    margin: 0 auto;
-                    font-size: 0.75rem;
-                    margin-top: 10px;
-                    letter-spacing: 0.3px;
-                    font-weight: 200;
-                    color: rgba(0, 0, 0, 0.57);
+                .tekstpp {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 0.5rem;
+                    color: rgba(87, 67, 67, 0.57);
+                    font-size: 0.7rem;
                 }
             }
-            .infobox {
-                width: 100%;
-                margin: 0 auto;
-                margin-bottom: 5px;
+            .tekens {
                 display: flex;
-                justify-content: space-around;
-                img {
-                    border-radius: 50%;
-                    height: 50px;
-                    width: auto;
-                }
-                .naam {
-                    margin-right: 20px;
-                    align-self: start;
-                    margin-bottom: 5px;
-                    .tekstp {
-                        font-family: 'Montserrat', sans-serif;
-                        font-weight: 400;
-                        font-size: 0.6rem;
-                        margin-top: 2px;
-                        padding-top: 10px;
-                    }
-                    .tekstpp {
-                        font-family: 'Montserrat', sans-serif;
-                        font-weight: 0.5rem;
-                        color: rgba(87, 67, 67, 0.57);
-                        font-size: 0.7rem;
-                    }
-                }
-                .tekens {
-                    display: flex;
-                    justify-content: center;
-                    margin-top: 5px;
-                    i {
-                        color: rgba(0, 0, 0, 0.508);
-                        padding-top: 10px;
-                    }
+                justify-content: center;
+                margin-top: 5px;
+                i {
+                    color: rgba(0, 0, 0, 0.508);
+                    padding-top: 10px;
                 }
             }
         }

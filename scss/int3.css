@@ -72,7 +72,6 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #a79680;
 }
 
 .landing .container .boxright {
@@ -88,9 +87,10 @@
           flex-direction: column;
   width: 60%;
   height: 100%;
+  background-color: white;
 }
 
-.landing .container .boxright .tekstrechts .titel {
+.landing .container .boxright .titel {
   width: 90%;
   margin: 0 auto;
   font-size: 0.9rem;
@@ -100,7 +100,7 @@
   line-height: 1.1rem;
 }
 
-.landing .container .boxright .tekstrechts .tekst {
+.landing .container .boxright .tekst {
   width: 90%;
   margin: 0 auto;
   font-size: 0.75rem;
@@ -110,7 +110,7 @@
   color: rgba(0, 0, 0, 0.57);
 }
 
-.landing .container .boxright .infobox {
+.landing .container .infobox {
   width: 100%;
   margin: 0 auto;
   margin-bottom: 5px;
@@ -121,13 +121,13 @@
       justify-content: space-around;
 }
 
-.landing .container .boxright .infobox img {
+.landing .container .infobox img {
   border-radius: 50%;
   height: 50px;
   width: auto;
 }
 
-.landing .container .boxright .infobox .naam {
+.landing .container .infobox .naam {
   margin-right: 20px;
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
@@ -135,7 +135,7 @@
   margin-bottom: 5px;
 }
 
-.landing .container .boxright .infobox .naam .tekstp {
+.landing .container .infobox .naam .tekstp {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 0.6rem;
@@ -143,14 +143,14 @@
   padding-top: 10px;
 }
 
-.landing .container .boxright .infobox .naam .tekstpp {
+.landing .container .infobox .naam .tekstpp {
   font-family: 'Montserrat', sans-serif;
   font-weight: 0.5rem;
   color: rgba(87, 67, 67, 0.57);
   font-size: 0.7rem;
 }
 
-.landing .container .boxright .infobox .tekens {
+.landing .container .infobox .tekens {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -160,7 +160,7 @@
   margin-top: 5px;
 }
 
-.landing .container .boxright .infobox .tekens i {
+.landing .container .infobox .tekens i {
   color: rgba(0, 0, 0, 0.508);
   padding-top: 10px;
 }
