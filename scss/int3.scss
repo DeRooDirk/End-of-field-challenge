@@ -1,0 +1,117 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        .landing {
+            background-color: cadetblue;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contentbox {
+                .paginatitel {
+                    text-align: center;
+                    margin: 50px;
+                }
+                .linkbox {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-wrap: wrap;
+                    margin: 0 auto;
+                    a {
+                        text-decoration: none;
+                        padding: 10px 30px;
+                        border-radius: 5px;
+                        margin: 20px;
+                        text-align: center;
+                        border: 1px solid rgb(33, 32, 32);
+                        color: black;
+                    }
+                    a:hover {
+                        background-color: rgb(33, 32, 32);
+                        color: whitesmoke;
+                    }
+                }
+            }
+            .container {
+                max-width: 496px;
+                height: 265px;
+                display: flex;
+                margin-top: 30px;
+                .boxleft {
+                    width: 40%;
+                    background-image: url(/pexels-eduardo-dutra-2115217.jpg);
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .boxright {
+                    display: flex;
+                    justify-content: space-between;
+                    flex-direction: column;
+                    width: 60%;
+                    background-color: beige;
+                    height: 100%;
+                    .tekstrechts {
+                        .titel {
+                            width: 90%;
+                            margin: 0 auto;
+                            font-size: 0.9rem;
+                            margin-top: 10px;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 600;
+                        }
+                        .tekst {
+                            width: 90%;
+                            margin: 0 auto;
+                            font-size: 0.8rem;
+                            margin-top: 15px;
+                            font-family: 'Montserrat', sans-serif;
+                            font-weight: 300;
+                        }
+                    }
+                    .infobox {
+                        width: 100%;
+                        margin: 0 auto;
+                        margin-bottom: 5px;
+                        display: flex;
+                        justify-content: space-around;
+                        img {
+                            border-radius: 50%;
+                            height: 50px;
+                            width: auto;
+                        }
+                        .naam {
+                            margin-right: 20px;
+                            align-self: start;
+                            margin-bottom: 5px;
+                            .tekstp {
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight: 600;
+                                font-size: 0.6rem;
+                                margin: 2px;
+                            }
+                            .tekstpp {
+                                font-family: 'Montserrat', sans-serif;
+                                font-weight: 200;
+                                font-size: 0.5rem;
+                                letter-spacing: 2px;
+                            }
+                        }
+                        .tekens {
+                            display: flex;
+                            justify-content: center;
+                            margin-top: 5px;
+                            i {
+                                color: rgba(0, 0, 0, 0.508);
+                            }
+                        }
+                    }
+                }
+            }
+        }

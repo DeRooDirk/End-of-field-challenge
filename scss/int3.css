@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.landing {
+  background-color: cadetblue;
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .contentbox .paginatitel {
+  text-align: center;
+  margin: 50px;
+}
+
+.landing .contentbox .linkbox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.landing .contentbox .linkbox a {
+  text-decoration: none;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  border: 1px solid #212020;
+  color: black;
+}
+
+.landing .contentbox .linkbox a:hover {
+  background-color: #212020;
+  color: whitesmoke;
+}
+
+.landing .container {
+  max-width: 496px;
+  height: 265px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.landing .container .boxleft {
+  width: 40%;
+  background-image: url(/pexels-eduardo-dutra-2115217.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing .container .boxright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  background-color: beige;
+  height: 100%;
+}
+
+.landing .container .boxright .tekstrechts .titel {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+.landing .container .boxright .tekstrechts .tekst {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  margin-top: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+.landing .container .boxright .infobox {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.landing .container .boxright .infobox img {
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
+}
+
+.landing .container .boxright .infobox .naam {
+  margin-right: 20px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  margin-bottom: 5px;
+}
+
+.landing .container .boxright .infobox .naam .tekstp {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 0.6rem;
+  margin: 2px;
+}
+
+.landing .container .boxright .infobox .naam .tekstpp {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  font-size: 0.5rem;
+  letter-spacing: 2px;
+}
+
+.landing .container .boxright .infobox .tekens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5px;
+}
+
+.landing .container .boxright .infobox .tekens i {
+  color: rgba(0, 0, 0, 0.508);
+}
+/*# sourceMappingURL=int3.css.map */
