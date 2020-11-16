@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(./img/22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+
+/* -- Main container -- */
+
+.container {
+    width: 70vw;
+    flex-grow: 1 1 50%;
+}
+
+
+/* -- Klaar sectie -- */
+
+.klaar {
+    height: 150px;
+    width: 150px;
+    background-image: url(./img/kaars.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 10px 7px rgba(5, 0, 0, 0.9) inset;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(40%, -40%);
+    text-align: center;
+}
+
+.klaar>h4 {
+    color: rgb(211, 110, 110);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.klaar>h2 {
+    color: rgb(226, 127, 13);
+    font-size: 4rem
+}
+
+
+/* -- Linkse sectie in container -- */
+
+.links {
+    flex: 40%;
+    background-image: url(./img/halloween-1702677_1280.jpg);
+    background-position: center center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 7px rgba(5, 0, 0, 0.9) inset;
+}
+
+.links>i {
+    color: red;
+    margin: 10px;
+}
+
+
+/* -- Rechtse sectie in container -- */
+
+.rechts {
+    box-shadow: 3px 3px 10px 7px rgba(5, 0, 0, 0.9) inset;
+    flex: 60%;
+    position: relative;
+    padding: 3rem 2rem;
+    background-image: url(./img/2028246.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 200px 200px;
+    background-color: rgba(47, 48, 49, 0.7);
+    flex-wrap: wrap
+}
+
+.rechts>h1 {
+    color: rgb(245, 245, 245);
+    letter-spacing: 3px;
+    font-size: 3rem
+}
+
+.rechts>h4 {
+    color: rgb(226, 127, 13);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.rechts>p {
+    color: rgb(245, 245, 245);
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+
+/* -- TASTY sectie onderaan -- */
+
+.tasty {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tasty>i {
+    color: rgb(226, 127, 13);
+    font-size: 1.5rem
+}
+
+
+/*--  Media Q'S  -- */
+
+@media screen and (max-width: 800px) {
+    .rechts .klaar {
+        position: static;
+        display: block;
+        transform: unset;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .rechts {
+        text-align: center;
+        padding: 1rem 0.5rem
+    }
+    .container.flex {
+        display: block;
+        width: 90%;
+    }
+    .links {
+        display: block;
+        text-align: center
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .klaar {
+        height: 100px;
+    }
+    .rechts>h1 {
+        font-size: 2rem
+    }
+    .klaar>h2 {
+        font-size: 2rem
+    }
+    .tasty img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .tasty {
+        display: none;
+    }
+    .rechts>h1 {
+        font-size: 1rem;
+    }
+    .rechts>h4 {
+        font-size: 0.6rem;
+    }
+    .rechts>p {
+        font-size: 0.6rem
+    }
+    .rechts {
+        flex: 80%
+    }
+    .klaar>h4 {
+        font-size: 0.6rem
+    }
+    .links i {
+        font-size: 8px;
+    }
+}
+
+
+/*-- linkbox --*/
+
+.linkbox {
+    width: 30%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.linkbox h1 {
+    text-align: center;
+    color: rgb(223, 204, 204);
+}
+
+.linkbox a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin: 20px;
+    text-align: center;
+    border: 1px solid rgb(33, 32, 32);
+    color: rgb(153, 96, 35);
+    background-color: rgb(67, 64, 64);
+    width: 30%;
+    margin: 10px auto;
+}
+
+a:hover {
+    background-color: rgb(33, 32, 32);
+    color: rgb(153, 96, 35);
+    border: 1px solid rgb(153, 96, 35);
+}
