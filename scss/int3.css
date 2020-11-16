@@ -93,17 +93,18 @@
   width: 90%;
   margin: 0 auto;
   font-size: 0.9rem;
-  margin-top: 10px;
+  margin-top: 1.3rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
+  line-height: 1.1rem;
 }
 
 .landing .container .boxright .tekstrechts .tekst {
   width: 90%;
   margin: 0 auto;
-  font-size: 0.8rem;
-  margin-top: 15px;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  letter-spacing: 0.3px;
   font-weight: 200;
   color: rgba(0, 0, 0, 0.57);
 }
@@ -135,20 +136,17 @@
 
 .landing .container .boxright .infobox .naam .tekstp {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 0.6rem;
-  margin: 2px;
-  letter-spacing: 2px;
-  color: rgba(0, 0, 0, 0.919);
+  margin-top: 2px;
   padding-top: 10px;
 }
 
 .landing .container .boxright .infobox .naam .tekstpp {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 200;
-  font-size: 0.5rem;
-  letter-spacing: 2px;
-  color: rgba(0, 0, 0, 0.57);
+  font-weight: 0.5rem;
+  color: rgba(87, 67, 67, 0.57);
+  font-size: 0.7rem;
 }
 
 .landing .container .boxright .infobox .tekens {

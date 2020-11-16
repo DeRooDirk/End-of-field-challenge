@@ -1,123 +1,121 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing {
+    background-color: cadetblue;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .contentbox {
+        .paginatitel {
+            text-align: center;
+            margin: 50px;
         }
-        
-        .landing {
-            background-color: cadetblue;
-            height: 100vh;
-            width: 100vw;
+        .linkbox {
+            width: 100%;
             display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 0 auto;
+            a {
+                text-decoration: none;
+                padding: 10px 30px;
+                border-radius: 5px;
+                margin: 20px;
+                text-align: center;
+                border: 1px solid rgb(33, 32, 32);
+                color: black;
+            }
+            a:hover {
+                background-color: rgb(33, 32, 32);
+                color: whitesmoke;
+            }
+        }
+    }
+    .container {
+        max-width: 496px;
+        height: 265px;
+        display: flex;
+        margin-top: 30px;
+        .boxleft {
+            width: 40%;
+            background-image: url(/pexels-eduardo-dutra-2115217.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .boxright {
+            display: flex;
+            justify-content: space-between;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            .contentbox {
-                .paginatitel {
-                    text-align: center;
-                    margin: 50px;
-                }
-                .linkbox {
-                    width: 100%;
-                    display: flex;
-                    justify-content: space-around;
-                    flex-wrap: wrap;
+            width: 60%;
+            background-color: beige;
+            height: 100%;
+            .tekstrechts {
+                .titel {
+                    width: 90%;
                     margin: 0 auto;
-                    a {
-                        text-decoration: none;
-                        padding: 10px 30px;
-                        border-radius: 5px;
-                        margin: 20px;
-                        text-align: center;
-                        border: 1px solid rgb(33, 32, 32);
-                        color: black;
-                    }
-                    a:hover {
-                        background-color: rgb(33, 32, 32);
-                        color: whitesmoke;
-                    }
+                    font-size: 0.9rem;
+                    margin-top: 1.3rem;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    line-height: 1.1rem;
+                }
+                .tekst {
+                    width: 90%;
+                    margin: 0 auto;
+                    font-size: 0.75rem;
+                    margin-top: 10px;
+                    letter-spacing: 0.3px;
+                    font-weight: 200;
+                    color: rgba(0, 0, 0, 0.57);
                 }
             }
-            .container {
-                max-width: 496px;
-                height: 265px;
+            .infobox {
+                width: 100%;
+                margin: 0 auto;
+                margin-bottom: 5px;
                 display: flex;
-                margin-top: 30px;
-                .boxleft {
-                    width: 40%;
-                    background-image: url(/pexels-eduardo-dutra-2115217.jpg);
-                    background-position: center center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
+                justify-content: space-around;
+                img {
+                    border-radius: 50%;
+                    height: 50px;
+                    width: auto;
                 }
-                .boxright {
-                    display: flex;
-                    justify-content: space-between;
-                    flex-direction: column;
-                    width: 60%;
-                    background-color: beige;
-                    height: 100%;
-                    .tekstrechts {
-                        .titel {
-                            width: 90%;
-                            margin: 0 auto;
-                            font-size: 0.9rem;
-                            margin-top: 10px;
-                            font-family: 'Montserrat', sans-serif;
-                            font-weight: 600;
-                        }
-                        .tekst {
-                            width: 90%;
-                            margin: 0 auto;
-                            font-size: 0.8rem;
-                            margin-top: 15px;
-                            font-family: 'Montserrat', sans-serif;
-                            font-weight: 200;
-                            color: rgba(0, 0, 0, 0.57);
-                        }
+                .naam {
+                    margin-right: 20px;
+                    align-self: start;
+                    margin-bottom: 5px;
+                    .tekstp {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 400;
+                        font-size: 0.6rem;
+                        margin-top: 2px;
+                        padding-top: 10px;
                     }
-                    .infobox {
-                        width: 100%;
-                        margin: 0 auto;
-                        margin-bottom: 5px;
-                        display: flex;
-                        justify-content: space-around;
-                        img {
-                            border-radius: 50%;
-                            height: 50px;
-                            width: auto;
-                        }
-                        .naam {
-                            margin-right: 20px;
-                            align-self: start;
-                            margin-bottom: 5px;
-                            .tekstp {
-                                font-family: 'Montserrat', sans-serif;
-                                font-weight: 600;
-                                font-size: 0.6rem;
-                                margin: 2px;
-                                letter-spacing: 2px;
-                                color: rgba(0, 0, 0, 0.919);
-                                padding-top: 10px;
-                            }
-                            .tekstpp {
-                                font-family: 'Montserrat', sans-serif;
-                                font-weight: 200;
-                                font-size: 0.5rem;
-                                letter-spacing: 2px;
-                                color: rgba(0, 0, 0, 0.57);
-                            }
-                        }
-                        .tekens {
-                            display: flex;
-                            justify-content: center;
-                            margin-top: 5px;
-                            i {
-                                color: rgba(0, 0, 0, 0.508);
-                                padding-top: 10px;
-                            }
-                        }
+                    .tekstpp {
+                        font-family: 'Montserrat', sans-serif;
+                        font-weight: 0.5rem;
+                        color: rgba(87, 67, 67, 0.57);
+                        font-size: 0.7rem;
+                    }
+                }
+                .tekens {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 5px;
+                    i {
+                        color: rgba(0, 0, 0, 0.508);
+                        padding-top: 10px;
                     }
                 }
             }
         }
+    }
+}
