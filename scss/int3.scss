@@ -50,13 +50,13 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-color: rgb(167, 150, 128);
         }
         .boxright {
             display: flex;
             justify-content: space-between;
             flex-direction: column;
             width: 60%;
-            background-color: rgb(235, 235, 227);
             height: 100%;
             .tekstrechts {
                 .titel {

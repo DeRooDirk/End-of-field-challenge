@@ -72,6 +72,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #a79680;
 }
 
 .landing .container .boxright {
@@ -86,7 +87,6 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 60%;
-  background-color: #ebebe3;
   height: 100%;
 }
 
