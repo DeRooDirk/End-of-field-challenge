@@ -72,7 +72,8 @@
                             font-size: 0.8rem;
                             margin-top: 15px;
                             font-family: 'Montserrat', sans-serif;
-                            font-weight: 300;
+                            font-weight: 200;
+                            color: rgba(0, 0, 0, 0.57);
                         }
                     }
                     .infobox {
@@ -95,12 +96,16 @@
                                 font-weight: 600;
                                 font-size: 0.6rem;
                                 margin: 2px;
+                                letter-spacing: 2px;
+                                color: rgba(0, 0, 0, 0.919);
+                                padding-top: 10px;
                             }
                             .tekstpp {
                                 font-family: 'Montserrat', sans-serif;
                                 font-weight: 200;
                                 font-size: 0.5rem;
                                 letter-spacing: 2px;
+                                color: rgba(0, 0, 0, 0.57);
                             }
                         }
                         .tekens {
@@ -109,6 +114,7 @@
                             margin-top: 5px;
                             i {
                                 color: rgba(0, 0, 0, 0.508);
+                                padding-top: 10px;
                             }
                         }
                     }
